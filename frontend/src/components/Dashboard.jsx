@@ -1,7 +1,7 @@
-import InsightCard from "./InsightCard";
-import OutfitCard from "./OutfitCard";
-import HealthCard from "./HealthCard";
-import AQICard from "./AQICard";
+import InsightCard from "./InsightCard.jsx";
+import OutfitCard from "./OutfitCard.jsx";
+import HealthCard from "./HealthCard.jsx";
+import AQICard from "./AQICard.jsx";
 
 export default function Dashboard({ data, city }) {
   const { weather, aqi, outfit, health, run_safety } = data;
